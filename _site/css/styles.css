@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+ }
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1,
+header a,
+article .title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+article .author, 
+aside li a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(94, 3, 3);
+}
+
+header a {
+    margin-left: 0.5rem;
+    color: rgb(94, 3, 3);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    flex-basis: 70%;
+}
+
+article .title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+article .avatar {
+    width: 4rem;
+    height: 4.5rem;
+    margin-top: 2rem;
+    border-radius: 40%;
+}
+
+article .author {
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    font-style: oblique, italic;
+    color: rgb(110, 8, 8);
+}
+
+article .content {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+article .content p {
+    margin-top: 1rem;
+}
+
+aside li {
+    list-style-type: none;
+}
